@@ -1,9 +1,23 @@
+.targetAud {
+  max-width: 400px;
+}
+.targetAud .form-sub {
+  margin-top: 15px;
+}
+.targetAud label {
+  color: theme("colors.blackText");
+  font-size: 12px;
+}
+
 #gender button {
   color: theme("colors.blue");
   font-size: 14px;
   padding: 5px 10px;
   border: theme("border.lighBorder");
+  border-radius: theme("borderRadius.lighBorderRadius");
 }
 #gender button:hover {
   color: theme("colors.orange");
+  border: theme("border.orangeBorder");
+  background: #d592241c;
 }

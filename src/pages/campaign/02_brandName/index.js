@@ -4,7 +4,7 @@ import Input from "../../../components/input";
 function Campaign2() {
   return (
     <section className="Campaign2 flex items-center justify-center">
-      <div className="brand">
+      <div className="brand w-full">
         <small>Question 1</small>
         <h2 className='text-justify  text-3xl font-medium mb-14'>Brand Name & Category</h2>
 

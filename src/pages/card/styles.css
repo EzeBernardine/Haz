@@ -23,7 +23,7 @@
 }
 #grid-container button {
   color: #f5a31c;
-  border-radius: 4px;
+  border-radius: theme("borderRadius.lighBorderRadius");
   border: 1px solid #f5a31c42;
 }
 #grid-container button:hover {
