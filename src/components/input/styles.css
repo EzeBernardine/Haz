@@ -1,0 +1,17 @@
+.input-container {
+  border: 1px solid #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.input-container input {
+  font-size: 14px;
+  color: #12263F;
+  /* cursor:  */
+}
+input::-webkit-input-placeholder {
+  color: #95aac9;
+}
+input::placeholder {
+  color: #95aac9;
+  opacity: 1;
+}

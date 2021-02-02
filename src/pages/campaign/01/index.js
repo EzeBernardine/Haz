@@ -56,7 +56,7 @@ function Campaign1() {
               }) => (
                 <tr>
                   <td className="flex">
-                    <div className="flex pictureFrame">{logo}</div>
+                    <div className="flex table-pictureFrame">{logo}</div>
                     <span>{company}</span>
                   </td>
                   <td>{endDate}</td>

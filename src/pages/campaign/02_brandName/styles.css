@@ -1,0 +1,11 @@
+.brand {
+  width: 400px;
+}
+.brand .form-sub {
+  margin-top: 15px;
+}
+
+.brand label {
+  color: #12263f;
+  font-size: 12px;
+}

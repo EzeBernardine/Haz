@@ -7,7 +7,7 @@
   font-weight: 600;
   color: #12263f;
 }
-.pictureFrame {
+table tbody .table-pictureFrame {
   height: 20px;
   width: 20px;
   border-radius: 100%;
@@ -16,8 +16,8 @@
   background: #171717;
   margin-right: 10px;
 }
-.pictureFrame img,
-svg {
+table tbody .table-pictureFrame img,
+.table-pictureFrame svg {
   object-fit: cover;
   height: 100%;
   width: 100%;
