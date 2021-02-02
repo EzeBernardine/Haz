@@ -6,14 +6,20 @@ module.exports = {
     colors: {
       blue: "#95aac9",
       orange: "#F5A31C",
-      blackText: '#12263f'
+      blackText: "#12263f",
     },
     border: {
       lighBorder: " 1px solid #f2f2f2",
       orangeBorder: " 1px solid #F5A31C",
     },
     borderRadius: {
-      lighBorderRadius: '4px',
+      lighBorderRadius: "4px",
+    },
+    background: {
+      danger: "#DE3636",
+      complete: "#00AF51",
+      intermidiate: " #36A6DE",
+      advanced: '#3444444'
     },
   },
   variants: {

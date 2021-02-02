@@ -1,20 +1,23 @@
 /* -----------------unique classes ----------- */
-
-.bold {
-  font-weight: 600;
-  color: #12263f;
+.Users .person span:first-child {
+  color: theme("colors.blackText");
+  /* font-weight: 400; */
 }
-table tbody .table-pictureFrame {
-  height: 20px;
-  width: 20px;
+.Users .person span:last-child {
+  color: #6e84a3;
+  font-weight: 300;
+}
+.Users table tbody .table-pictureFrame {
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   overflow: hidden;
   padding: 5px;
-  background: #171717;
+  background: #95aac9;
   margin-right: 10px;
 }
-table tbody .table-pictureFrame img,
-.table-pictureFrame svg {
+.Users table tbody .table-pictureFrame img,
+.Users .table-pictureFrame svg {
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -40,38 +43,38 @@ table tbody .table-pictureFrame img,
 }
 
 /* ----------------------table section -------------------------- */
-.table-container {
+.Users .table-container {
   overflow-y: visible;
   overflow-x: scroll;
   scrollbar-color: #e3e3e3 transparent;
   scrollbar-width: thin;
 }
-.table-container::-webkit-scrollbar {
+.Users .table-container::-webkit-scrollbar {
   width: 5px;
   height: 11px;
 }
-.table-container::-webkit-scrollbar-button {
+.Users .table-container::-webkit-scrollbar-button {
   width: 0;
   height: 0;
 }
-.table-container::-webkit-scrollbar-thumb {
+.Users .table-container::-webkit-scrollbar-thumb {
   border-radius: 50px;
   background: #e3e3e3;
 }
-.table-container::-webkit-scrollbar-thumb:active {
+.Users .table-container::-webkit-scrollbar-thumb:active {
   background: #12263f;
 }
-.table-container::-webkit-scrollbar-track {
+.Users .table-container::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 53px;
 }
-.table-container::-webkit-scrollbar-track:hover {
+.Users .table-container::-webkit-scrollbar-track:hover {
   background: #eff0f5;
 }
-.table-container::-webkit-scrollbar-track:active {
+.Users .table-container::-webkit-scrollbar-track:active {
   background: #e3e3e3;
 }
-.table-container::-webkit-scrollbar-corner {
+.Users .table-container::-webkit-scrollbar-corner {
   background: transparent;
 }
 
@@ -93,6 +96,9 @@ table thead tr th {
   text-transform: uppercase;
   padding: 0.8rem 0.5rem;
 }
+table thead tr th span {
+  margin-left: 5px;
+}
 
 table tbody tr {
   background: white;
@@ -108,10 +114,27 @@ table tbody tr:hover {
 
 table tbody tr td {
   padding: 0.8rem 0.5rem;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.8rem;
   color: #12263f;
   text-align: start;
+}
+table tbody tr td button {
+  color: white;
+  font-size: 11px;;
+  border-radius: theme('borderRadius.lighBorderRadius');
+}
+table tbody tr td .basic {
+  background-color: theme("background.danger"); 
+}
+table tbody tr td .completed {
+  background-color: theme("background.complete"); 
+}
+table tbody tr td .intermidiate {
+  background-color: theme("background.intermidiate"); 
+}
+table tbody tr td .advanced {
+  background-color: theme("background.advanced"); 
 }
 
 /* ------------table at media---------------- */

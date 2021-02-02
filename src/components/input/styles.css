@@ -1,7 +1,7 @@
 .input-container {
   border: theme("border.lighBorder");
   padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: theme("borderRadius.lighBorderRadius");
 }
 .input-container input {
   font-size: 14px;

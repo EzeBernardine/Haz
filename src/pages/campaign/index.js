@@ -11,8 +11,12 @@ function Campaign() {
       <div className="space-out"></div>
 
       <Campaign2 />
+
       <div className="space-out"></div>
+
       <TargetAud />
+
+      <div className="space-out"></div>
     </div>
   );
 }

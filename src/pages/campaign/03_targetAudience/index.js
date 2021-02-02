@@ -1,5 +1,6 @@
 import "./styles.css";
 import Input from "../../../components/input";
+import { AiOutlineSearch } from "react-icons/ai";
 
 function TargetAud() {
   return (
@@ -97,11 +98,15 @@ function TargetAud() {
             <label htmlFor="Add More Description" className="text-justify">
               Add More Description
             </label>
-            <Input
-              htmlFor="Add More Description"
-              placeHolder="Select Brand"
-              className="my-1"
-            />
+            <div className="flex items-center addMoreDescription">
+              <AiOutlineSearch />
+              <Input
+                htmlFor="Add More Description"
+                placeHolder="Select Brand"
+                className="my-1"
+                noIcon
+              />
+            </div>
           </div>
 
           <div className="form-sub text-justify">

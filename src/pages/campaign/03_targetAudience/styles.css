@@ -21,3 +21,9 @@
   border: theme("border.orangeBorder");
   background: #d592241c;
 }
+
+.targetAud .addMoreDescription {
+  padding: 5px 10px;
+  border: theme("border.lighBorder");
+  border-radius: theme("borderRadius.lighBorderRadius");
+}
