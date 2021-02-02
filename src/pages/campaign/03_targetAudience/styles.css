@@ -1,0 +1,9 @@
+#gender button {
+  color: theme("colors.blue");
+  font-size: 14px;
+  padding: 5px 10px;
+  border: theme("border.lighBorder");
+}
+#gender button:hover {
+  color: theme("colors.orange");
+}

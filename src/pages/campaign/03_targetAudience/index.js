@@ -1,0 +1,102 @@
+import "./styles.css";
+import Input from "../../../components/input";
+
+function TargetAud() {
+  return (
+    <section className="TargetAud flex items-center justify-center">
+      <div className="brand">
+        <small>Question 6</small>
+        <h2 className="text-center  text-2xl font-medium mb-9">
+          Target Audience
+        </h2>
+
+        <from>
+          <div className="grid grid-cols-2 gap-x-3 ">
+            <div className="form-sub text-justify">
+              <label htmlFor="brand" className="text-justify">
+                Category
+              </label>
+              <Input
+                htmlFor="brand"
+                placeHolder="Select Brand"
+                className="my-1"
+              />
+            </div>
+            <div className="form-sub text-justify">
+              <label htmlFor="brand" className="text-justify">
+                State
+              </label>
+              <Input
+                htmlFor="brand"
+                placeHolder="Select Brand"
+                className="my-1"
+              />
+            </div>
+          </div>
+
+          <div className="form-sub text-justify">
+            <label htmlFor="Education" className="text-justify">
+              Gender
+            </label>
+            <div className="grid  gap-x-3 grid-cols-3 " id="gender">
+              <button>Male</button>
+              <button>Female</button>
+              <button>Others</button>
+            </div>
+          </div>
+
+          <div className="form-sub text-justify">
+            <label htmlFor="Education" className="text-justify">
+              Education
+            </label>
+            <Input
+              htmlFor="Education"
+              placeHolder="Select Brand"
+              className="my-1"
+              noIcon
+            />
+          </div>
+
+          <div className="form-sub text-justify">
+            <label htmlFor="Relationship" className="text-justify">
+              Relationship
+            </label>
+            <Input
+              htmlFor="Relationship"
+              placeHolder="Select Brand"
+              className="my-1"
+            />
+          </div>
+
+          <div className="form-sub text-justify">
+            <label htmlFor="Add More Description" className="text-justify">
+              Add More Description
+            </label>
+            <Input
+              htmlFor="Add More Description"
+              placeHolder="Select Brand"
+              className="my-1"
+            />
+          </div>
+
+          <div className="form-sub text-justify">
+            <label htmlFor="Where they Shop" className="text-justify">
+              Where they Shop
+            </label>
+            <Input
+              htmlFor="Where they Shop"
+              placeHolder="Select Brand"
+              className="my-1"
+            />
+          </div>
+
+          <button className="text-black bg-yellow-500 w-full rounded text-sm py-2 mt-6 hover:bg-yellow-600">
+            Next
+          </button>
+        </from>
+      </div>
+    </section>
+  );
+}
+
+export default TargetAud;

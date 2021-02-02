@@ -10,11 +10,11 @@ function Input({ htmlFor, placeHolder, className, noIcon = false }) {
         type="text"
         id={htmlFor}
         placeholder={placeHolder}
-        className="flex-1"
+        className="flex-1 min-w-0 "
       />
       {!noIcon ? (
         <span>
-          <RiArrowDropDownLine className="text-black h-6 w-6" />
+          <RiArrowDropDownLine className="text-black h-5 w-5" />
         </span>
       ) : null}
     </div>

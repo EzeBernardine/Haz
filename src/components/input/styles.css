@@ -1,12 +1,11 @@
 .input-container {
-  border: 1px solid #f2f2f2;
+  border: theme("border.lighBorder");
   padding: 5px 10px;
   border-radius: 4px;
 }
 .input-container input {
   font-size: 14px;
-  color: #12263F;
-  /* cursor:  */
+  color: theme("colors.blue");
 }
 input::-webkit-input-placeholder {
   color: #95aac9;

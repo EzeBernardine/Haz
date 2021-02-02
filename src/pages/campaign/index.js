@@ -1,6 +1,7 @@
 import "./styles.css";
 import Campaign1 from "./01";
 import Campaign2 from "./02_brandName";
+import TargetAud from "./03_targetAudience";
 
 function Campaign() {
   return (
@@ -10,6 +11,8 @@ function Campaign() {
       <div className="space-out"></div>
 
       <Campaign2 />
+      <div className="space-out"></div>
+      <TargetAud />
     </div>
   );
 }
