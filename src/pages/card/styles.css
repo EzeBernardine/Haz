@@ -1,0 +1,54 @@
+#grid-container {
+  background-color: #f9fafc;
+}
+
+#grid-container #card {
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 2px 2px -2px #d9d7d6a3;
+}
+#grid-container #card #card-icon {
+  border-radius: 100%;
+  background: #eff8fc;
+  padding: 10px;
+}
+#grid-container h3 {
+  padding: 25px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+#grid-container button {
+  color: #f5a31c;
+  border-radius: 4px;
+  border: 1px solid #f5a31c42;
+}
+#grid-container button:hover {
+  box-shadow: 0px 3px 4px -1px #d9d7d6a3;
+}
+
+.star-rate {
+  position: absolute;
+  right: 1.75rem;
+  top: 1.75rem;
+  padding: 4px 7px;
+  background-color: #fef6e8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.star-rate svg {
+  fill: #fff;
+  height: 10px;
+  width: 10px;
+}
+.star-rate span {
+  background: #f5a31c;
+  border-radius: 50%;
+  padding: 2px;
+}
+.star-rate small {
+  color: #f5a31c;
+  padding-left: 5px;
+  font-size: 10px;
+  font-weight: 550;
+}
