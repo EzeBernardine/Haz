@@ -1,12 +1,15 @@
 #grid-container {
   background-color: #f9fafc;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 }
 
 #grid-container #card {
   border-radius: 5px;
   position: relative;
+  min-width: 300px;;
   box-shadow: 0px 2px 2px -2px #d9d7d6a3;
 }
+
 #grid-container #card #card-icon {
   border-radius: 100%;
   background: #eff8fc;
